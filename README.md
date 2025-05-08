@@ -7,7 +7,7 @@ SCCmecScanner is a lightweight Python utility that pinpoints the **start and end
 
 I am just sharing the code to make people not to suffer the same problem.
 
-> ⚠️ **Scope** This tool **does not classify** SCC<sub>mec</sub> into types or subtypes. If you want, please use the companion repository **[SCCmec\_classifier](https://github.com/jeju2486/sccmec_classifier)**.
+**NOTE** This tool **does not classify** SCC<sub>mec</sub> into types or subtypes. If you want, please use the companion repository **[SCCmec\_classifier](https://github.com/jeju2486/sccmec_classifier)**.
 
 
 
