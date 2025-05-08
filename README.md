@@ -2,13 +2,12 @@
 
 **Rapid extraction of SCC<sub>mec</sub> boundaries from *Staphylococcus* genome assemblies**
 
----
 
 SCCmecScanner is a lightweight Python utility that pinpoints the **start and end coordinates of the staphylococcal cassette chromosome mec (SCC<sub>mec</sub>)** element in draft or complete *Staphylococcus* genome FASTA files.
-It is designed for surveillance pipelines where rapid, automated detection of SCC<sub>mec</sub> presence is essential, such as monitoring the emergence of methicillin‑resistant *Staphylococcus aureus* (MRSA) or characterising other *Staphylococcus* species.
 
-> ⚠️ **Scope** This tool **does not classify** SCC<sub>mec</sub> into types or subtypes.
-> For downstream typing, please use the companion repository **[SCCmec\_classifier](https://github.com/jeju2486/sccmec_classifier)**.
+I am just sharing the code to make people not to suffer the same problem.
+
+> ⚠️ **Scope** This tool **does not classify** SCC<sub>mec</sub> into types or subtypes. If you want, please use the companion repository **[SCCmec\_classifier](https://github.com/jeju2486/sccmec_classifier)**.
 
 ---
 
