@@ -9,7 +9,6 @@ I am just sharing the code to make people not to suffer the same problem.
 
 > ⚠️ **Scope** This tool **does not classify** SCC<sub>mec</sub> into types or subtypes. If you want, please use the companion repository **[SCCmec\_classifier](https://github.com/jeju2486/sccmec_classifier)**.
 
----
 
 
 ## Installation
@@ -27,7 +26,6 @@ $ pip install -r requirements.txt
 
 Dependencies are minimal—principally **Biopython** and the Python standard library.  See `requirements.txt` for exact versions.
 
----
 
 ## Quick start
 
@@ -44,7 +42,6 @@ python sccmec_finder.py \
 
 The output file lists, for each assembly, the contig ID plus the 1‑based **start** and **end** nucleotide coordinates of the SCC<sub>mec</sub> element.
 
----
 
 ## How it works — algorithm overview
 
@@ -57,14 +54,11 @@ The implementation reproduces the decision rules described by Farhat *et al.* 
 
 For full details, consult the original publication or read the commented source code (`sccmec_finder.py`).
 
----
 
 ## Limitations 
 
 * Draft assemblies with highly fragmented SCC<sub>mec</sub> may lead to truncated coordinates.
 * Non‑canonical SCC elements (e.g., SCC<sup>fus</sup>) are **not** currently detected.
-
----
 
 ## Contact
 
