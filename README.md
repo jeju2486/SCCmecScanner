@@ -30,15 +30,19 @@ Dependencies are minimal—principally **Biopython** and the Python standard lib
 ## Quick start
 
 ```bash
-python sccmec_finder.py \
-    --ref_dir /path/to/assemblies \
-    --out results.tsv
+python blast_sccmec.py \
+  --ref_dir "$reference_dir" \
+  --dr_fasta "$target_seq_dir"/DR.fasta \
+  --ir_fasta "$target_seq_dir"/IR.fasta \
+  --mecA_fasta "$target_seq_dir"/mecA.fasta \
+  --rlmH_fasta "$target_seq_dir"/orfX.fasta \
+  --output_dir "$sccmec_finding_summary_dir"
 ```
 
 | Argument    | Required | Description                                                               |
 | ----------- | -------- | ------------------------------------------------------------------------- |
 | `--ref_dir` | ✅        | Folder containing genome assemblies (`*.fa`, `*.fasta`, `*.fna`, `*.fas`) |
-| `--out` |          | Path to write tab‑delimited results (default: `sccmec_coordinates.tsv`)   |
+| `--output_dir` |          | Path to write tab‑delimited results (default: `sccmec_coordinates.tsv`)   |
 
 The output file lists, for each assembly, the contig ID plus the 1‑based **start** and **end** nucleotide coordinates of the SCC<sub>mec</sub> element.
 
